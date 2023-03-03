@@ -1,0 +1,396 @@
+#==============================================================================
+#
+# 『Map』スクリプトファイル [Map.txt]
+# Author : 小綱啓仁
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/map.png		# [0]地面テクスチャ
+
+#------------------------------------------------------------------------------
+# 読み込むモデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 19
+
+#------------------------------------------------------------------------------
+# 読み込むモデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/ガードレール.x
+MODEL_FILENAME = data/MODEL/ビル1.x
+MODEL_FILENAME = data/MODEL/ビル2.x
+MODEL_FILENAME = data/MODEL/自動販売機1.x
+MODEL_FILENAME = data/MODEL/自動販売機2.x
+MODEL_FILENAME = data/MODEL/車.x
+MODEL_FILENAME = data/MODEL/ゴミ箱.x
+MODEL_FILENAME = data/MODEL/バス停.x
+MODEL_FILENAME = data/MODEL/バス停雨除け.x
+MODEL_FILENAME = data/MODEL/ベンチ.x
+MODEL_FILENAME = data/MODEL/ポスト.x
+MODEL_FILENAME = data/MODEL/街路樹.x
+MODEL_FILENAME = data/MODEL/消火栓.x
+MODEL_FILENAME = data/MODEL/電柱.x
+MODEL_FILENAME = data/MODEL/コンビニ.x
+MODEL_FILENAME = data/MODEL/チュートリアル看板01.x
+MODEL_FILENAME = data/MODEL/チュートリアル看板02.x
+MODEL_FILENAME = data/MODEL/チュートリアル看板03.x
+MODEL_FILENAME = data/MODEL/チュートリアル看板04.x
+
+#------------------------------------------------------------------------------
+# 表示する地面の配置情報
+#------------------------------------------------------------------------------
+
+FIELDSET
+	POS = -15000.0 0.0 15000.0
+	ROT = 0.0 0.0 0.0
+	COLOR = 1.0 1.0 1.0 1.0
+	SIZE = 1000.0 1000.0
+	DIVISION = 30 30
+END_FIELDSET
+
+#------------------------------------------------------------------------------
+# 表示するモデルの配置情報
+#------------------------------------------------------------------------------
+
+MODELSET
+	TYPE = 15
+	POS = 658.6 0.0 654.4
+	ROT = 0.0 0.6 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 661.2 0.0 1785.0
+	ROT = 0.0 0.6 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 654.6 0.0 2961.0
+	ROT = 0.0 0.6 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 18
+	POS = 647.9 0.0 4158.0
+	ROT = 0.0 0.6 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 606.7 0.0 242.8
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 533.2 0.0 97.2
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 642.0 0.0 -1.6
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 692.8 0.0 179.2
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = 647.9 0.0 1447.5
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 805.7 0.0 1492.2
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 12
+	POS = 722.7 0.0 1370.9
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 5
+	POS = 1135.7 0.0 3987.3
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 11
+	POS = 1438.6 0.0 3983.8
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 12
+	POS = -3050.7 0.0 6701.9
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 12
+	POS = -2987.8 0.0 6704.5
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 12
+	POS = -3035.0 0.0 6828.6
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 12
+	POS = -2935.6 0.0 6823.6
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -2843.4 0.0 6827.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -2808.0 0.0 6745.6
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -2754.1 0.0 6812.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -2720.3 0.0 6700.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -2613.2 0.0 6824.9
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -2587.7 0.0 6743.3
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -2533.9 0.0 6810.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -2500.7 0.0 6688.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 10
+	POS = -2395.6 0.0 6829.8
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 10
+	POS = -2342.9 0.0 6749.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 10
+	POS = -2386.7 0.0 6682.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 10
+	POS = -2270.2 0.0 6795.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 9
+	POS = -2067.2 0.0 6844.5
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 9
+	POS = -1907.4 0.0 6835.5
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 9
+	POS = -2060.8 0.0 6717.3
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 9
+	POS = -1901.1 0.0 6708.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -1642.5 0.0 6854.2
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -1588.8 0.0 6741.1
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -1286.2 0.0 6831.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -1250.7 0.0 6749.3
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = -962.8 0.0 6883.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = -822.4 0.0 6885.6
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -702.6 0.0 6878.9
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -582.8 0.0 6872.2
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 5
+	POS = -374.8 0.0 6830.6
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 5
+	POS = -174.0 0.0 6839.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 5
+	POS = 17.4 0.0 6858.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 8
+	POS = 345.4 0.0 7064.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 8
+	POS = 521.9 0.0 6687.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 8
+	POS = 875.0 0.0 7021.7
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 13
+	POS = 1282.7 0.0 7223.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 13
+	POS = 1410.9 0.0 6920.9
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 13
+	POS = 1545.1 0.0 7202.1
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 11
+	POS = 1899.0 0.0 7336.8
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 11
+	POS = 2024.0 0.0 7037.9
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 11
+	POS = 2201.4 0.0 7310.4
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 14
+	POS = 2978.9 0.0 7250.3
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 4408.5 0.0 7305.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 6220.1 0.0 7331.3
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+
+
+END_SCRIPT		# この行は絶対消さないこと！
